@@ -1,9 +1,5 @@
 // List of possible words for the game
-const words = ["jumpy", "brick", "plumb", "shock", "crisp", "flute", "drown", "grasp", "blaze", "twirl",
-"vexed", "swift", "thump", "chirp", "ghost", "quirk", "frown", "plank", "brush", "crush",
-"flesh", "grind", "humid", "knife", "lunch", "mouth", "nerve", "ocean", "prize", "quilt",
-"ranch", "storm", "thorn", "using", "vowel", "waltz", "xenon", "yeast", "zebra", "drift",
-"fancy", "glint", "horse", "index", "joker", "knock", "lemon", "march", "night", "opera"];
+const words = ["brave", "chair", "dance", "eagle", "frost", "globe", "heart", "index", "joint", "knife", "lemon", "magic", "north", "ocean", "plant", "quick", "river", "space", "table", "unite", "value", "world", "xeric", "young", "zebra", "adapt", "blast", "crisp", "drift", "empty", "flute", "grant", "humor", "input", "latch", "mirth", "novel", "orbit", "pulse", "quest", "roach", "steam", "tonic", "upset", "vigor", "whisk", "yield"];
 
 // Select a random word from the list
 const selectedWord = words[Math.floor(Math.random() * words.length)];
