@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  background-image: url('website bg.jpg');
+}
+.box1 {
+     padding: 10px;
+     background-color: #ffffff;
+     position: relative;
+     right: 10px;
+     width: 100%;
+     bottom: 10px;
+	 border-radius: 30px;
+}
+.box2 {
+     padding: 10px;
+     background-color: #fff2f8;
+     position: relative;
+     right: 10px;
+     width: 100%;
+     bottom: 10px;
+	 border-radius: 30px;
+}
+.icon-container {
+     position: absolute;
+     top: 50px;
+     left: 25px;
+}
+.icon {
+     width: 100px;
+     height: auto;
+}
+
+/* Nav */
+.nav-ul {
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+	 color: #ff91b0;
+}
+.nav-a {
+     text-decoration: none;
+     color: #ff91b0;
+     font-family: 'Arial Narrow Bold', sans-serif;
+     font-weight: bold;
+	 
+}
+.nav-h .nav-ul {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+}
+.nav-h li {
+     width: 190px;
+     float: left;
+}
+.nav-h .nav-a  {
+     display: block;
+     background: #ffffff;
+     padding: 15px 20px;
+     text-align: center;
+     border: 2px solid rgb(255, 255, 255);
+     border-radius: 15px;
+}
+.nav-h .nav-a:hover, .nav-h #nav-active1:hover {
+     color: #ff91b0;
+     background: #ffffff;
+}
+.nav-h .nav-a:active, .nav-h #nav-active1:active  {
+     color: #ff91b0;
+     background: #ffffff;
+}
+.nav-a#nav-active1 {
+     color: #ff91b0;
+     background: #ffffff;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ff91b0;
+}
+
+/* Game container (3/4 of the screen width) */
+.container {
+  width: 100%;
+  max-width: 870px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 70px;
+}
+
+/* Hangman image positioned on the left */
+.hangman-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+/* Hangman image size */
+img {
+  width: 100%;
+  max-height: 500px;
+}
+
+/* Word display (underscores aligned horizontally) */
+#word-display {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Remaining lives text */
+#lives {
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Keyboard layout (centered, 3 rows) */
+#keyboard {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+button {
+  padding: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: #ffb0c6;;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #ffd9e2;
+}
+
+button:disabled {
+  background-color: #e6e6e6;
+  cursor: not-allowed;
+}

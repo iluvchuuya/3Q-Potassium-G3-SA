@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+<!-- Header-->
+       <header>
+         <section class="box1">
+           <h1 class="wordle">Hangman: Word Guessing Game</h1>
+             </section>   
+               <section class="box2">
+      <!-- Nav -->
+        <nav>
+         <div class="nav-h">
+          <ul class="nav-ul">
+           <li><a class="nav-a" href="https://www.wikihow.com/Play-Hangman">How to Play</a></li>
+           <li><a class="nav-a" href="https://simple.wikipedia.org/wiki/Hangman">About</a></li>
+           <li><a class="nav-a" href="https://i.ytimg.com/vi/3XwWIepDRp4/mqdefault.jpg?days_since_epoch=20143">More Games</a></li>
+          </ul>
+        </div>
+       </nav>
+      </section> 
+    </header>
+  <div class="container">
+    <div class="hangman-section">
+      <img id="hangman-image" src="start.jpg" alt="Hangman Stage">
+      <div>
+        <div id="word-display">_ _ _ _ _</div>
+        <p id="lives">Remaining lives: 5</p>
+      </div>
+    </div>
+
+    <div id="keyboard">
+      <button id="a" onclick="checkLetter('a')">A</button>
+      <button id="b" onclick="checkLetter('b')">B</button>
+      <button id="c" onclick="checkLetter('c')">C</button>
+      <button id="d" onclick="checkLetter('d')">D</button>
+      <button id="e" onclick="checkLetter('e')">E</button>
+      <button id="f" onclick="checkLetter('f')">F</button>
+      <button id="g" onclick="checkLetter('g')">G</button>
+      <button id="h" onclick="checkLetter('h')">H</button>
+      <button id="i" onclick="checkLetter('i')">I</button>
+      <button id="j" onclick="checkLetter('j')">J</button>
+      <button id="k" onclick="checkLetter('k')">K</button>
+      <button id="l" onclick="checkLetter('l')">L</button>
+      <button id="m" onclick="checkLetter('m')">M</button>
+      <button id="n" onclick="checkLetter('n')">N</button>
+      <button id="o" onclick="checkLetter('o')">O</button>
+      <button id="p" onclick="checkLetter('p')">P</button>
+      <button id="q" onclick="checkLetter('q')">Q</button>
+      <button id="r" onclick="checkLetter('r')">R</button>
+      <button id="s" onclick="checkLetter('s')">S</button>
+      <button id="t" onclick="checkLetter('t')">T</button>
+      <button id="u" onclick="checkLetter('u')">U</button>
+      <button id="v" onclick="checkLetter('v')">V</button>
+      <button id="w" onclick="checkLetter('w')">W</button>
+      <button id="x" onclick="checkLetter('x')">X</button>
+      <button id="y" onclick="checkLetter('y')">Y</button>
+      <button id="z" onclick="checkLetter('z')">Z</button>
+    </div>
+  </div>
+  
+  <script src=script.js ></script>
+  <footer>
+        <p>&copy; 2025 GROUP-3. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+    
+ </body>
+</html>
